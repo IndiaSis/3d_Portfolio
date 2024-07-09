@@ -18,8 +18,6 @@ const App=()=>{
         <Contact />
         <StarsCanvas />
       </div>
-
-
     </div>
     
     </BrowserRouter>
