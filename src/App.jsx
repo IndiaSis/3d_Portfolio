@@ -1,20 +1,29 @@
-import React from "react"
 import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components";
-function App() {
-  
+import {Navbar, About, Contact, Experience, Feedbacks, Hero, Tech, Works, StarsCanvas} from "./components";
 
+const App=()=>{
   return (
     <BrowserRouter>
     <div className="relative z-0 bg-primary">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
+        <About />
       </div>
+      <About />
+      <Experience />
+      <Tech />
+      <Works />
+      <Feedbacks />
+      <div className="realtive z-0">
+        <Contact />
+        <StarsCanvas />
+      </div>
+
+
     </div>
+    
     </BrowserRouter>
-    
-    
-  );
+  )
 }
 
-export default App;
+export default App
