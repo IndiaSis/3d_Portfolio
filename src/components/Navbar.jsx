@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Navbar = () => {
+function Navbar(){
   return (
-    <div>Navbar</div>
-  )
+    <>
+    <h1 color='#0000'>Navbar</h1>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
