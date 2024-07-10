@@ -21,3 +21,7 @@ npm run dev
 npm i --legacy-peer-deps -D postcss autoprefixer
 npx tailwindcss init -p
 
+
+<!-- installing three.js package -->
+npm i --legacy-peer-deps three
+
