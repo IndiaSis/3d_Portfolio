@@ -8,7 +8,7 @@ import {logo, menu, close} from "../assets";
 const Navbar=()=>{
 
 const [active, setActive]=useState("");
-const [toggle, setToggle]=useState("false");
+const [toggle, setToggle]=useState(false);
 
 return (
   <nav className={`${styles.paddingX} w-full flex-items-center z-20 top-0 fixed py-5 bg-primary`}>
