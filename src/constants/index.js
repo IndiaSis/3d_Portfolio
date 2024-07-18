@@ -57,6 +57,7 @@ import {
       title: "Content Creator",
       icon: creator,
     },
+    
   ];
   
   const technologies = [
