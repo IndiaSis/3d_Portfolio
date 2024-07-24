@@ -10,7 +10,7 @@ const Works = () => {
 
   const ProjectCard = ({index, name, description, tags, image, source_code_link}) =>{
     return (
-      <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
+      <motion.div variants={fadeIn("up", "spring", index*0.5, 1.5)}>
           <Tilt options={{max:45,scale:1, speed:450}} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
             <div className="relative w-full h-[280px]">
             <img src={image} alt="project_image" className="w-full h-full object-cover rounded-2xl" />
@@ -37,7 +37,7 @@ const Works = () => {
           <h2 className={styles.sectionHeadText}>Projects.</h2>
        </motion.div>
        <div className="w-full ml-[50px] flex">
-       <motion.p variants={fadeIn("","",0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+       <motion.p variants={fadeIn("right","spring",0.1, 2)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
