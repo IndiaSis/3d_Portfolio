@@ -22,8 +22,8 @@ const Navbar=()=>{
                 <img src={logo} alt="logo" className='w-20 h-20 object-contain'/>
                 <p className='text-white text-[18px] font-bold cursor-pointer flex'>Siser Pratap &nbsp;<span className='sm:block hidden'>| Web Developer</span></p>
                 </Link> 
-                <ul className='list-none hidden sm:flex flex-row gap-10'>
-                  {navLinks.map((link)=>(
+                {/* <ul className='list-none hidden sm:flex flex-row gap-10'> */}
+                  {/* {navLinks.map((link)=>(
                     <li key={link.id}
                         className={`${
                                       active===link.title?"text-white":"text-secondary"
@@ -33,9 +33,9 @@ const Navbar=()=>{
                       >
                         <a href={`#${link.id}`}>{link.title}</a>
                     </li>
-                  ))}
-                </ul>
-                <div className='sm:hidden flex flex-1 justify-end items-center'>
+                  ))} */}
+                {/* </ul> */}
+                {/* <div className='sm:hidden flex flex-1 justify-end items-center'>
                   <img src={toggle?close:menu}
                       alt='menu'
                       className='w-[28px] h-[28px] object-contain cursor-pointer'
@@ -56,8 +56,8 @@ const Navbar=()=>{
                           </li>
                         ))}
                       </ul>
-                  </div>
-                </div>
+                  </div> */}
+                {/* </div> */}
               </div>
         </nav>
       )
