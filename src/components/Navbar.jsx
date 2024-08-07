@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Link, Navigate } from 'react-router-dom'; 
+import { Link, useNavigate } from 'react-router-dom'; 
 import { styles } from '../styles';
 import {navLinks} from "../constants";
 import {logo, menu, close} from "../assets";
@@ -10,7 +10,7 @@ const Navbar=()=>{
       const [toggle, setToggle]=useState(false);
 
       function gotopage(link){
-        Navigate(`${link.id}`);
+        navigate(`${link.id}`);
       }
 
       
