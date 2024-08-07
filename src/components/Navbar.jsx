@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link, Navigate } from 'react-router-dom'; 
 import { styles } from '../styles';
 import {navLinks} from "../constants";
 import {logo, menu, close} from "../assets";
@@ -8,6 +8,10 @@ const Navbar=()=>{
 
       const [active, setActive]=useState("");
       const [toggle, setToggle]=useState(false);
+
+      function gotopage(link){
+        Navigate(`${link.id}`);
+      }
 
       
 
@@ -54,8 +58,8 @@ const Navbar=()=>{
                               onClick={()=> {setToggle(!toggle)
                                             setActive(link.title)}}
                             >
-                              <a href={`${link.id}`}>{link.title}</a> 
-                              {/* <button className='btn p-0' onClick={()=> gotopage(link)}><a href={`${link.id}`}>{link.title}</a></button> */}
+                              {/* <a href={`${link.id}`}>{link.title}</a>  */}
+                              <button className='btn p-0' onClick={()=> gotopage(link)}><a href={`${link.id}`}>{link.title}</a></button>
                           </li>
                         ))}
                       </ul>
