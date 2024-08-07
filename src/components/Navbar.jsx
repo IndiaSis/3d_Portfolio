@@ -9,9 +9,13 @@ const Navbar=()=>{
       const [active, setActive]=useState("");
       const [toggle, setToggle]=useState(false);
 
-      function gotopage(link){
+      const navigate = useNavigate();
+
+      const gotopage=(link)=>{
         navigate(`${link.id}`);
       }
+
+
 
       
 
