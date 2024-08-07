@@ -27,7 +27,7 @@ const About=()=>{
     <div >
     
     <motion.div  className="p-[50px]" variants={textVariant()}>
-          <p  id="about" className={styles.sectionSubText}>Introduction</p>
+          <p  className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("right","spring",0.1,1)} className=' px-[50px] mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
