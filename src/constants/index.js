@@ -19,6 +19,7 @@ import {
     download,
     download1,
     DCInfotech,
+    Express,
     
     
     carrent,
@@ -75,10 +76,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -112,9 +110,10 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name: "Express",
+      icon : Express,
+    }
+    
   ];
   
   const experiences = [
@@ -198,17 +197,18 @@ import {
           name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
         {
           name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      website_link: "https://to-do-lime-omega.vercel.app/",
+      source_code_link:"https://github.com/Siser-Pratap/ToDo",
     },
     // {
     //   name: "Job IT",

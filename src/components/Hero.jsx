@@ -37,7 +37,7 @@ const Hero = () => {
           <a href="/Siser_Pratap_Resume.pdf" download>
         <button className="bg-[#4303cc] m-2 rounded-3xl p-5  hover:bg-[#915eff]">Download CV</button>
         </a>
-          <button className="bg-black-200 m-2 rounded-3xl p-5 hover:bg-[#4303cc] hover:rounded-xl " onClick={handlepreview}>Preview CV</button>
+          <button className="bg-black-200 m-2 rounded-3xl p-5 hover:bg-[#4303cc] hover:rounded-full " onClick={handlepreview}>Preview CV</button>
           </div>
         </div>
       </div>

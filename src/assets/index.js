@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import DCInfotech from "./company/DCInfotech.jpg";
+import tries from "./tries.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,6 +31,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Express from "./tech/Express.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   jobit,
   tripguide,
   DCInfotech,
+  Express,
+  tries,
 };
