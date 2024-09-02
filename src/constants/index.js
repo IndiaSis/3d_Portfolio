@@ -18,6 +18,8 @@ import {
     meta,
     download,
     download1,
+    DCInfotech,
+    
     
     carrent,
     jobit,
@@ -46,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX",
       icon: mobile,
     },
     {
@@ -117,24 +119,38 @@ import {
   
   const experiences = [
     {
-      title: "MERN Stack Developer",
+      title: "Web Development Intern",
+      company_name : "DCInfotech",
+      icon: DCInfotech,
+      iconBg: "383E56",
+      date: "Sept 2024 - Present",
+      points:[
+        "Debugging Web Applications",
+        "Designing 3d and animated websites",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+      ]
+    },
+    {
+      title: "MERN Stack Developer Intern",
       company_name: "Oasis Infobyte",
       icon: download,
       iconBg: "#383E56",
       date: "June 2024 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
+    
     // {
-    //   title: "React Native Developer",
-    //   company_name: "",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
+    //   title: "Web Developer",
+    //   company_name: "Udemy",
+    //   icon: download1,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2023 - June 2024",
     //   points: [
     //     "Developing and maintaining web applications using React.js and other related technologies.",
     //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,32 +158,7 @@ import {
     //     "Participating in code reviews and providing constructive feedback to other developers.",
     //   ],
     // },
-    {
-      title: "Web Developer",
-      company_name: "Udemy",
-      icon: download1,
-      iconBg: "#383E56",
-      date: "Jan 2023 - June 2024",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+   
   ];
   
   const testimonials = [
