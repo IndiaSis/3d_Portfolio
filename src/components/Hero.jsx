@@ -21,6 +21,8 @@ const Hero = () => {
             I develop Interactive user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
+          <a href="/Siser_pratap_Resume.pdf" download>Download CV</a>
+          <button>Preview CV</button>
         </div>
       </div>
       <div className="px-20px flex justify-center" >
