@@ -1,8 +1,20 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useState } from "react";
 
 const Hero = () => {
+  
+  const [shown, setShown] = useState(false);
+
+  const pdfUrl = `${window.location.origin}/Siser_Pratap_Resume.pdf`;
+
+  const googleDocsUrl = `https://docs.google.com/viewer?url=${pdfUrl}&embedded=true`
+  
+  const handlepreview = () => {
+    window.open(googleDocsUrl, "_blank");
+  }
+
   return (
     <>
     <section className={`w-full h-auto pt-36 m-50px`}>
@@ -21,8 +33,10 @@ const Hero = () => {
             I develop Interactive user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
-          <a href="/Siser_pratap_Resume.pdf" download>Download CV</a>
-          <button>Preview CV</button>
+          <a href="/Siser_Pratap_Resume.pdf" download>
+        <button>Download CV</button>
+        </a>
+          <button onClick={handlepreview}>Preview CV</button>
         </div>
       </div>
       <div className="px-20px flex justify-center" >
