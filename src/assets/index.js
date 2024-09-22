@@ -29,9 +29,11 @@ import download from "./company/download.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Image_Gen from "./Image_Gen.jpg";
+import chatNow from "./chatNow.jpg";
+
 import Express from "./tech/Express.png";
+
 
 export {
   logo,
@@ -60,8 +62,9 @@ export {
   download,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  Image_Gen,
+  chatNow,
+  
   DCInfotech,
   Express,
   tries,

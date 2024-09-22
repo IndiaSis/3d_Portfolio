@@ -21,10 +21,9 @@ import {
     DCInfotech,
     Express,
     
-    
+    chatNow,
     carrent,
-    jobit,
-    tripguide,
+    Image_Gen,
     threejs,
   } from "../assets";
   
@@ -205,53 +204,67 @@ import {
           name: "bootstrap",
           color: "pink-text-gradient",
         },
+        {name: "JavaScript",
+          color: "green-text-gradient",
+        }
       ],
       image: carrent,
       website_link: "https://to-do-lime-omega.vercel.app/",
       source_code_link:"https://github.com/Siser-Pratap/ToDo",
     },
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Image Gen",
+      description:
+        "Image_Gen is an AI-powered image generation platform where users can create stunning images by simply providing a prompt. Using the OpenAI API, the platform generates images based on user inputs, which can be shared with the community or downloaded for personal use. Image_Gen offers a seamless experience for users to explore creativity.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"MongoDb",
+          color:"yellow"
+        },
+      ],
+      image: Image_Gen,
+      website_link:"https://image-gen-ashen-six.vercel.app/",
+      source_code_link: "https://github.com/Siser-Pratap/Image_Gen",
+    },
+    {
+      name: "ChatNow",
+      description:
+        "ChatNow is an intelligent chat app powered by Google Gemini API, designed to answer any questions users have instantly. With advanced AI capabilities, ChatNow provides accurate and reliable responses, making it the perfect companion for quick information, problem-solving, and everyday conversations. Whether you need help with research or advice.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"MongoDb",
+          color:"yellow",
+        }
+      ],
+      image: chatNow,
+      website_link:"https://chat-now-rho.vercel.app/",
+      source_code_link: "https://github.com/Siser-Pratap/ChatNow",
+      
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
