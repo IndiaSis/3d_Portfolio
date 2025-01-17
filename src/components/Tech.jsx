@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
+import { Tilt } from "react-tilt";
 
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
@@ -24,7 +25,9 @@ const Tech = () =>{
         <>
              <div className="flex mt-20 flex-row flex-wrap justify-evenly items-center gap-10">
                 {technologies.map((technology, index)=>(
+              <Tilt options={{max:45,scale:1, speed:450}}>
                 <Icon key={technology.name} index={index} {...technology}/>
+              </Tilt>
         ))}
         </div>  
         </>

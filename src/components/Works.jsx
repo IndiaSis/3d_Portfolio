@@ -34,7 +34,7 @@ const Works = () => {
               {tags.map((tag)=>
                 (
                   <p key={`${name}-${tag.name}`}
-                     className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+                     className={`text-[14px]  ${tag.color}`}>#{tag.name}</p>
                 )
               )}
             </div>

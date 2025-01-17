@@ -33,7 +33,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
       e.preventDefault();
       setloading(true);
-      emailjs.send('service_x9a1382', 'template_m25ij2i', {from_name:form.name, to_name: "Siser", from_email:form.email, to_email:"jay.siserpratap@gmail.com", message:form.message}, 'f_VZUB9-gBXWtZ5v1' ).then(
+      emailjs.send('service_x9a1382', 'template_m25ij2i', {from_name:form.name, to_name: "Siser", from_email:form.email, to_email:"jay.siserpratap@gmail.com", message:`message:${form.message} and Email: ${form.email}`} ,'f_VZUB9-gBXWtZ5v1' ).then(
         () => {
           setloading(false);
           alert("Thank You. I will get back to you as soon as possible");

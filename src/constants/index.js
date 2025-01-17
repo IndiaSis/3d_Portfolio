@@ -1,6 +1,7 @@
 import {
     mobile,
     backend,
+    lock,
     creator,
     web,
     javascript,
@@ -129,19 +130,7 @@ import {
         "Developing and maintaining web applications using React.js and other related technologies.",
       ]
     },
-    {
-      title: "MERN Stack Developer Intern",
-      company_name: "Oasis Infobyte",
-      icon: download,
-      iconBg: "#383E56",
-      date: "June 2024 - July 2024",
-      points: [
-        
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        
-      ],
-    },
+    // 
     
     // {
     //   title: "Web Developer",
@@ -264,6 +253,35 @@ import {
       website_link:"https://chat-now-rho.vercel.app/",
       source_code_link: "https://github.com/Siser-Pratap/ChatNow",
       
+    },
+    {
+      name:"Authence",
+      description:"A cutting-edge npm package streamlining JSX component integration, enhancing workflows for sign-in, login, sign-up, and user updates",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"MongoDb",
+          color:"text-yellow-500",
+        },
+        {
+          name:"NPM",
+          color:"text-amber-600",
+        }
+      ],
+      image: lock,
+      website_link:"https://www.npmjs.com/package/authence",
+      source_code_link: "https://github.com/Siser-Pratap/Authence",
     },
   ];
   

@@ -9,7 +9,7 @@ const Hero = () => {
 
   const pdfUrl = `${window.location.origin}/Siser_Pratap_Resume.pdf`;
 
-  const googleDocsUrl = `https://docs.google.com/viewer?url=${pdfUrl}&embedded=true`
+  const googleDocsUrl = `https://drive.google.com/file/d/16hQBB6TtUTMPgoV7KzdjClwzuNfuTm3p/view?usp=drive_link`
   
   const handlepreview = () => {
     window.open(googleDocsUrl, "_blank");

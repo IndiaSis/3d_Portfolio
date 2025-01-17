@@ -31,6 +31,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import Image_Gen from "./Image_Gen.jpg";
 import chatNow from "./chatNow.jpg";
+import lock from "./lock.jpg";
 
 import Express from "./tech/Express.png";
 
@@ -64,6 +65,7 @@ export {
   carrent,
   Image_Gen,
   chatNow,
+  lock,
   
   DCInfotech,
   Express,
